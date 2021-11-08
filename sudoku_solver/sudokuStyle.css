@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, header {
+    text-align: center;
+}
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+}
+.cell {
+    width: 49px;
+    height: 49px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 45px;
+    font-size: 25px;
+}
+.r2, .r5, .r8 {
+    border-bottom: 3px solid black;
+}
+.r0, .r3, .r6 {
+    border-top: 3px solid black;
+}
+.s2, .s5, .s8 {
+    border-right: 3px solid black;
+}
+.s0, .s3, .s6 {
+    border-left: 3px solid black;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
