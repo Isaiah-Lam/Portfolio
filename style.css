@@ -8,10 +8,12 @@ p {
 }
 .nav-bar {
     width: fit-content;
-    float: left;
-    overflow: hidden;
+    display: inline-block;
     background-color: black;
     font-size: x-large;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 .nav-bar a {
     float: left;
@@ -86,13 +88,24 @@ p {
 #projects {
     margin: 15px;
     text-align: center;
+    background-color: rgb(243, 243, 243);
 }
 .project {
     height: 100vh;
     padding: 20px;
     width: 60%;
-    margin: 25px auto 75px auto;
+    margin: 0px auto 100px auto;
 }
 .proj-desc {
     margin: 10px auto 0px auto;
+}
+#sudoku {
+    margin-top: 150px;
+}
+#ttt {
+    height: 125vh;
+}
+#proj-head {
+    background-color: white;
+    padding-bottom: 100px;
 }
