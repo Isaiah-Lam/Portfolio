@@ -109,3 +109,28 @@ p {
     background-color: white;
     padding-bottom: 100px;
 }
+#proj-icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+.avatar {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+    border-radius: 40px;
+}
+.icon-label {
+    float: left;
+    margin-top: 35px;
+}
+.proj-link {
+    height: 100px;
+    width: 250px;
+}
+.proj-link:hover {
+    border: 2px solid black;
+}
