@@ -62,7 +62,7 @@ p {
 #profile {
     clear: both;
     width: 50%;
-    margin: 50px auto 200px auto;
+    margin: 50px auto 100px auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -90,4 +90,9 @@ p {
 .project {
     height: 100vh;
     padding: 20px;
+    width: 60%;
+    margin: 25px auto 75px auto;
+}
+.proj-desc {
+    margin: 10px auto 0px auto;
 }

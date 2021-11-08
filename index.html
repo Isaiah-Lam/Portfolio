@@ -14,9 +14,9 @@
             <div class="dropdown">
                 <button class="btn">My Projects</button>
                 <div class="drop-content">
-                    <a href="#">Minesweeper</a>
+                    <a href="#minesweeper">Minesweeper</a>
+                    <a href="#sudoku">Sudoku Solver</a>
                     <a href="#">Tic-Tac-Toe</a>
-                    <a href="#">Sudoku Solver</a>
                 </div>
             </div> 
         </div>
@@ -33,15 +33,23 @@
 
         <div id="projects">
             <h1><u>My Projects</u></h1>
-            <p style="width: 33%; margin: 5 auto 50 auto;">I have compiled all of my major projects here for you to view. Each one is able to be viewed on github via the link in each section. Thank you for your interest in my projects.</p>
+            <p style="width: 33%; margin: 5px auto 100px auto;">I have compiled all of my major projects here for you to view. Each one is able to be viewed on github via the link in each section. Thank you for your interest in my projects.</p>
+
             <div class="project" id="minesweeper">
                 <h2>Minesweeper</h2>
-                <p>During my senior year of high school, I recreated minesweeper in python for my performance task required for the AP Computer Science Principles exam. <a href="#">View on GitHub</a></p>
-                <img src="" alt="">
-
+                <p class="proj-desc">During my senior year of high school, I recreated minesweeper in python for my performance task required for the AP Computer Science Principles exam. <a href="https://github.com/Isaiah-Lam/Portfolio/blob/9bda30fd51bc10e5116766a67bbe09c098f00856/Minesweeper/main.py">View on GitHub</a></p>
+                <p>Controls: Left-Click to reveal square, Right-Click to flag/unflag. (Click on output tab to see the game)</p>
+                <iframe src="https://replit.com/@IsaiahLamison/minesweeper?embed=true" frameborder="0" width="85%" height="95%"></iframe>
             </div>
+
+            <div class="project" id="sudoku">
+                <h2>Sudoku Solver</h2>
+                <p class="proj-desc">During my first semester at Thaddeus Stevens, when I had extra time during class, I would work on this sudoku solver. When given a valid, solvable board, it will solve the sudoku. <a href="https://github.com/Isaiah-Lam/Portfolio/blob/9bda30fd51bc10e5116766a67bbe09c098f00856/Minesweeper/main.py">View on GitHub</a></p>
+                <p>Controls: Click on a square to enter a number. Continue until board is ready, then click solve.</p>
+                <iframe src="sudoku_solver/sudoku2.html" frameborder="0" width="75%" height="82%"></iframe>
+            </div>
+
         </div>
-        
 
     </body>
 
