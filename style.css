@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+p {
+    font-size: larger;
+}
 .nav-bar {
     width: fit-content;
     float: left;
@@ -59,12 +62,11 @@
 #profile {
     clear: both;
     width: 50%;
-    margin: 50px auto;
+    margin: 50px auto 200px auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 .prof {
     display: inline-block;
@@ -80,4 +82,12 @@
 }
 #about {
     width: 60%;
+}
+#projects {
+    margin: 15px;
+    text-align: center;
+}
+.project {
+    height: 100vh;
+    padding: 20px;
 }
