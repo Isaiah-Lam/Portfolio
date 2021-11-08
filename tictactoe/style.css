@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.square {
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    color: transparent;
+}
+.wincount {
+    display: none;
+}
+button {
+    display: inline-block;
+    margin: 0 10px;
+}
+#btn2 {
+    display: none;
+}
