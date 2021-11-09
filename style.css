@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(243, 243, 243);
+}
 p {
     font-size: larger;
 }
@@ -88,25 +91,18 @@ p {
 #projects {
     margin: 15px;
     text-align: center;
-    background-color: rgb(243, 243, 243);
 }
 .project {
     height: 100vh;
     padding: 20px;
     width: 60%;
     margin: 0px auto 100px auto;
+    text-align: center;
 }
 .proj-desc {
     margin: 10px auto 0px auto;
 }
-#sudoku {
-    margin-top: 150px;
-}
-#ttt {
-    height: 125vh;
-}
 #proj-head {
-    background-color: white;
     padding-bottom: 100px;
 }
 #proj-icons {
@@ -133,5 +129,9 @@ p {
 }
 .proj-link:hover {
     border: 2px solid black;
-    background-color: rgb(243, 243, 243);
+    height: 110px;
+    width: 275px;
+    padding: 2% 0 0 3%;
+    background-color: rgb(184, 184, 184);
+    transition: height 0.3s, width 0.3s, padding 0.3s;
 }
