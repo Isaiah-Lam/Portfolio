@@ -131,6 +131,7 @@ p {
     border: 2px solid black;
     height: 110px;
     width: 275px;
+    padding: 2% 0 0 3%;
     background-color: rgb(184, 184, 184);
-    transition: height 0.3s, width 0.3s;
+    transition: height 0.3s, width 0.3s, padding 0.3s;
 }
