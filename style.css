@@ -135,3 +135,49 @@ p {
     background-color: rgb(184, 184, 184);
     transition: height 0.3s, width 0.3s, padding 0.3s;
 }
+ion-icon {
+    font-size: large;
+    color: white;
+    line-height: 50%;
+    margin-bottom: -3px;
+    margin-left: 3px;
+}
+.indent-1 {
+    padding-left: 25px;
+}
+.indent-2 {
+    padding-left: 50px;
+}
+#flexbox {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#flex2 {
+    flex-direction: column;
+}
+ul {
+    font-size: large;
+}
+#head {
+    width: 60%;
+    margin: 75px auto 85px auto;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+#resume-content {
+    border: 2px solid black;
+    clear: both;
+    margin: 50px 50px;
+    line-height: 40px;
+    padding-bottom: 50px;
+}
+#education {
+    border-right: 2px solid black;
+    padding-right: 75px;
+}
+.job {
+    margin: 10px 10px 50px 10px;
+    line-height: 30px;
+}
