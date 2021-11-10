@@ -124,6 +124,10 @@ p {
 .icon-label {
     float: left;
     margin-top: 35px;
+    text-decoration: underline;
+}
+.icon-link:link, .icon-link:visited {
+    color: black;
 }
 .proj-link {
     height: 100px;
