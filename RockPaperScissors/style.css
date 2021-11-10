@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: burlywood;
+}
+#s1 {
+    background-color: rgb(0, 110, 255);
+    height: 15px;
+    width: 1px;
+    display: inline-block;
+}
+#s2 {
+    background-color: red;
+    height: 15px;
+    width: 1px;
+    display: inline-block;
+}
+#s3 {
+    background-color: purple;
+    height: 15px;
+    width: 1px;
+    display: inline-block;
+}
+#scores p {
+    display: inline-block;
+    margin: 0 5px;
+}
+#scores {
+    width: 50%;
+    height: 100px;
+    margin: 0px auto 50px auto;
+}
+.score-flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}
+#options {
+    width: 50%;
+    margin: 10px auto;
+}
+#buttons {
+    margin: 0 auto;
+}
+.img-btn {
+    width: 200px;
+    height: 200px;
+    filter: brightness(100%);
+}
+.img-btn:hover {
+    filter: brightness(70%);
+    transition: all 0.3s ease;
+}
+#buttons {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+#animation {
+    display: none;
+    text-align: center;
+}
+#animation-contents {
+    display: flex;
+    justify-content: center;
+}
+.animated-circle {
+    height: 175px;
+    width: 175px;
+    background-position: center;
+    background-size: 120%;
+    border-radius: 100px;
+}
+.empty {
+    display: none;
+    height: 75px;
+}
+.animated-text {
+    display: none;
+}
+#animated-text-div {
+    width: 150px;
+    text-align: center;
+    margin: 25px 75px;
+}
+#animated-cpu {
+    background-image: url("imgs/question_mark.png");
+}

@@ -1,0 +1,80 @@
+<html>
+
+    <title>Rock-Paper-Scissors</title>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <h1 style="margin: 25px auto; width: fit-content;">Rock, Paper, Scissors!</h1>
+        
+        <div id="scores">
+            <h3 style="margin: 5px auto; width: fit-content;">Score:</h3>
+            <div class="score-flex">
+                <p>YOU:</p>
+                <div id="s1"></div>
+                <p id="playerScore">0</p>
+            </div>
+            <div class="score-flex">
+                <p style="margin-right: 8.5px;">CPU:</p>
+                <div id="s2"></div>
+                <p id="cpuScore">0</p>
+            </div>
+            <div class="score-flex">
+                <p style="margin-right: 6px;">TIES:</p>
+                <div id="s3"></div>
+                <p id="ties">0</p>
+            </div>
+        </div>
+
+        <div id="options">
+            <h2 style="margin: 0px auto 50px auto; width: fit-content;"><u>Choose an option:</u></h2>
+            <table id="buttons">
+                <tr>
+                    <th><h2>Rock</h2></th>
+                    <th><h2>Paper</h2></th>
+                    <th><h2>Scissors</h2></th>
+                </tr>
+                <tr>
+                    <td><img src="imgs/rock.png" alt="Rock" id="rock" class="img-btn" onclick="game('rock')"></td>
+                    <td><img src="imgs/paper.png" alt="Paper" id="paper" class="img-btn" onclick="game('paper')"></td>
+                    <td><img src="imgs/scissors.png" alt="Scissors" id="scissors" class="img-btn" onclick="game('scissors')"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="animation">
+            <div id="animation-contents">
+                <div>
+                    <div class="empty"></div>
+                    <h3>You</h3>
+                    <div class="animated-circle" id="animated-player">
+                        
+                    </div>
+                </div>
+
+                <div id="animated-text-div">
+                    <h1 id="rock-text" class="animated-text">Rock...</h1>
+                    <h1 id="paper-text" class="animated-text">Paper...</h1>
+                    <h1 id="scissors-text" class="animated-text">Scissors...</h1>
+                    <h1 id="shoot-text" class="animated-text">Shoot!</h1>
+                </div>
+
+                <div>
+                    <div class="empty"></div>
+                    <h3>CPU</h3>
+                    <div class="animated-circle" id="animated-cpu">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="rps.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</html>
