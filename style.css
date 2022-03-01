@@ -172,18 +172,3 @@ ul {
     padding-bottom: 15px;
     border-bottom: 2px solid black;
 }
-#resume-content {
-    border: 2px solid black;
-    clear: both;
-    margin: 50px 50px;
-    line-height: 40px;
-    padding-bottom: 50px;
-}
-#education {
-    border-right: 2px solid black;
-    padding-right: 75px;
-}
-.job {
-    margin: 10px 10px 50px 10px;
-    line-height: 30px;
-}
